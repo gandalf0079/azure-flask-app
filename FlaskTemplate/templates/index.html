@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>Bertelsmann Cloud Track</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest"> -->
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://bn1304files.storage.live.com/y4mYZxcvwkk5t0JRUhuBmMFLANPFe_aRhbE105wlUS4nyJhrGHU6jUroJ4a_yY7LlTAt-kazpIiaZ7nY05mplEfijREqeo8Swzdb86yHPpCPh_tPDLzUTAc4PZ_mhZxAJZEgG5pxZ-HVqjgSRL51nuUDxHOkfB7owPRbgk1X1CgGhqJVCG3gp9ocE3JLeCGAwoi?width=1920&height=1080&cropmode=none');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-black">
+    <div class="w3-display-container" style="height:500px;">
+        <div class="w3-display-bottommiddle">
+          <h3 >
+            {% if name %}
+                Hosted with ❤️  by {{name}}
+            {% else %}
+                Hosted with ❤️
+            {% endif %}
+            </h1>
+        </div>
+    </div>
+  <div class="w3-display-bottom">
+    
+  </div>
+  <div class="w3-display-bottommiddle w3-padding-xlarge">
+  </div>
+</div>
+
+</body>
+</html>
